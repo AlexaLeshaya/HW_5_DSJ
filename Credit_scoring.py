@@ -25,7 +25,7 @@ st.sidebar.header("Настройки модели")
 test_size = st.sidebar.slider("Доля тестовой выборки", 0.1, 0.3, 0.2, 0.05)
 k_neighbors = st.sidebar.slider("Число соседей (kNN)", 1, 15, 3, 1)
 max_depth = st.sidebar.slider("Глубина дерева", 1, 20, 5, 1)
-max_iter = st.sidebar.slider("Макс. итераций (Logistic Regression)", 100, 1000, 500, 5)
+max_iter = st.sidebar.slider("Макс. итераций (Logistic Regression)", 100, 1000, 565, 5)
 
 # Функция загрузки и обработки данных
 @st.cache_data
